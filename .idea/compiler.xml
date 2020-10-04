@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="protobuf-java" />
+        <module name="protobuf-java-util" />
+        <module name="protobuf-javalite" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="protobuf-bom" target="1.5" />
+      <module name="protobuf-java" target="1.7" />
+      <module name="protobuf-java-util" target="1.7" />
+      <module name="protobuf-javalite" target="1.7" />
+      <module name="protobuf-parent" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
